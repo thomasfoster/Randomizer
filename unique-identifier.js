@@ -1,6 +1,8 @@
 /**
  * Unique Identifier 9/29/15
- * ----------------------
+ * -------------------------
+ * https://github.com/thomasfoster/Randomizer
+ *
  * This plugin will simply provide a jQuery function that will return a random number
  * to your specified length for use in unique ids for Directives or Polymer Elements for example.
  *
@@ -26,5 +28,3 @@ var uniqueIdentifier = function(prefix){
     cust_Id = prefix + randomValue;
     return cust_Id;
 };
-
-alert(uniqueIdentifier('rocket'));
